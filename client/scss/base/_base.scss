@@ -10,20 +10,17 @@ html {
 	// This defines what 1rem is
 	font-size: 62.5%;
 
-	@include respond(phone) {
-		font-size: 50%;
+	@include respond(tab-land) {
+		font-size: 56.25%;
 	}
 
 	@include respond(tab-port) {
-		font-size: 60%;
+		font-size: 50%;
 	}
 
-	@include respond(tab-land) {
-		font-size: 70%;
-	}
 
 	@include respond(big-desktop) {
-		font-size: 80%;
+		font-size: 75%;
 	}
 }
 
